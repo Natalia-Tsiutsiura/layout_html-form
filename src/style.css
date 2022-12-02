@@ -1,8 +1,16 @@
-.fieldset:not(:last-of-type) {
-  margin-bottom: 20px;
+.fieldset {
+  margin-top: 20px;
 }
 
-.label:not(:first-of-type) {
+.fieldset:first-of-type {
+  margin-top: 0;
+}
+
+.label {
   display: block;
   padding-top: 10px;
+}
+
+.label:first-of-type {
+  padding-top: 0;
 }
